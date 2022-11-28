@@ -1,10 +1,10 @@
-package modelo.entidad;
+package entidad;
 
 import javax.persistence.Entity;
 
 @Entity
 public class Libro {
-
+	@
 	private int id;
 	private String isbn;
 	private String titulo,autor,fechaDePublicacion;
