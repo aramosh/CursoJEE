@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="Ej12">
-        <wb-resource deploy-path="/" source-path="/src/main/webapp"/>
-        <property name="context-root" value="Ej12"/>
-        <property name="java-output-path" value="/Ej12/build/classes"/>
-    </wb-module>
-</project-modules>

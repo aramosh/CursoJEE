@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf16695435774440" configfile="/Ej11/src/main/webapp/WEB-INF/faces-config.xml">
-  <nodes xsi:type="pageflow:PFPage" name="index.xhtml" id="pf16695438710961" referenceLink="//@navigationRule.0/@fromViewId|" outlinks="pf16695438710972 pf16695438710973" path="/index.xhtml"/>
-  <nodes xsi:type="pageflow:PFPage" name="resultado.xhtml" id="pf16695438710974" referenceLink="//@navigationRule.0/@navigationCase.0/@toViewId|" inlinks="pf16695438710972" path="/resultado.xhtml"/>
-  <nodes xsi:type="pageflow:PFPage" name="borra.xhtml" id="pf16695438710975" referenceLink="//@navigationRule.0/@navigationCase.1/@toViewId|" inlinks="pf16695438710973" path="/borra.xhtml"/>
-  <links id="pf16695438710972" target="pf16695438710974" source="pf16695438710961" outcome="resultado"/>
-  <links id="pf16695438710973" target="pf16695438710975" source="pf16695438710961" outcome="borra"/>
-</pageflow:Pageflow>

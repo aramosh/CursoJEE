@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy 2 elements to &apos;java&apos;&#x0A;- Original project: &apos;Ej07&apos;&#x0A;- Destination element: &apos;java&apos;&#x0A;- Original elements:&#x0A;     modelo&#x0A;     controlador" description="Copy folders" element1="src/main/java/modelo" element2="src/main/java/controlador" files="0" flags="589830" folders="2" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1669449721827" target="/Ej10/src/main/java" units="0" version="1.0"/>
-</session>
