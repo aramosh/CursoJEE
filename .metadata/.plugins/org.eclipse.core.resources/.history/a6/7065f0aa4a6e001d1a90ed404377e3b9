@@ -1,0 +1,33 @@
+package controlador;
+
+import javax.faces.bean.ApplicationScoped;
+import javax.faces.bean.ManagedBean;
+
+import modelo.negocio.Pedido;
+@ManagedBean
+@ApplicationScoped
+public class Pidiendo {
+	private Pedido pedido;
+	
+	public Pedido getPedido() {
+		return pedido;
+	}
+
+	public void setPedido(Pedido pedido) {
+		this.pedido = pedido;
+	}
+	
+	public String resultado(Pedido p) {
+		if(p.getPizzas().size() == 0) {
+			return null;
+		}else {
+			return "resultado";
+		}
+	}
+
+	public String borra(Pedido p) {
+		p = null;
+		return "borrado";
+	}
+	
+}

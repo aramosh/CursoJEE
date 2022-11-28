@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:f="http://xmlns.jcp.org/jsf/core">
+<head>
+	<title>Pizzeria JSF</title>
+</head>
+<body>
+	<h:form>
+		<label>Nombre Completo: <h:inputText value="#{pedido.cliente.nombre}"/> </label>
+		<fieldset>
+			<legend>Selecciones el tamaño de su pizza</legend>
+			<h:selectOneRadio value="#{pedido.pizza.size}">
+				<f:selectItem itemValue="peque" itemLabel="Pequeña"/>
+				<f:selectItem itemValue="mediana" itemLabel="Mediana"/>
+				<f:selectItem itemValue="grande" itemLabel="Grande"/>
+			</h:selectOneRadio>
+		</fieldset>
+		<fieldset>
+			<legend>Selecciones sus ingredientes</legend>
+			<h:selectManyCheckbox value="#{pedido.pizza.ingredientes}">
+				<f:selectItem itemValue="anchoas" itemLabel="Anchoas" />
+				<f:selectItem itemValue="aceitunas" itemLabel="Aceitunas"/>
+				<f:selectItem itemValue="queso" itemLabel="queso"/>
+				<f:selectItem itemValue="brocoli" itemLabel="Brócoli"/>
+			</h:selectManyCheckbox>
+		</fieldset>
+		<h:commandButton value="Pedir Pizza" action="#{pedido.pedirPizza()}"/>
+	</h:form>
+	<h:commandButton value="Confirmar el Pedido" action="resultado"/>
+</body>
+</html>

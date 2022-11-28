@@ -1,0 +1,8 @@
+package modelo.entidad;
+
+import modelo.negocio.Pedido;
+
+public class Cliente {
+	private String nombre;
+	private Pedido pedido;
+}

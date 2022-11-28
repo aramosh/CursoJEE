@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;webapp&apos;&#x0A;- Original project: &apos;Ej03_web&apos;&#x0A;- Destination element: &apos;webapp&apos;&#x0A;- Original elements:&#x0A;     tablaLibros.html&#x0A;     index.html" description="Copy files" element1="src/main/webapp/tablaLibros.html" element2="src/main/webapp/index.html" files="2" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1669401325340" target="/Ej03/src/main/webapp" units="0" version="1.0"/>
+</session>

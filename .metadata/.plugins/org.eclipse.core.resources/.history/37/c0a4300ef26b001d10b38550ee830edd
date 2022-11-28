@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+
+<body>
+
+	<h:form>
+		<label>Num1: <h:inputText id="num1"/> </label>
+		<label>Num2: <h:inputText id="num2"/> </label>
+		<h:commandButton value="Suma" action="calculaBean.sumar()"/>
+		<h:commandButton value="Resta" action="calculaBean.restar()"/>
+		<h:commandButton value="Multiplica" action="calculaBean.multiplicar()"/>
+		<h:commandButton value="Divide" action="calculaBean.dividir()"/>
+	</h:form>
+	<h:outputText value="calculaBean.resultado" style="color: green"/>
+
+</body>
+
+
+</html>

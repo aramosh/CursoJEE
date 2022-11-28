@@ -1,0 +1,20 @@
+package controlador;
+
+import java.util.Map;
+
+import javax.faces.context.FacesContext;
+
+import modelo.negocio.Pedido;
+
+public class Pidiendo {
+	private Pedido pedido;
+
+	public Pidiendo() {
+		super();
+		FacesContext context = FacesContext.getCurrentInstance();
+		Map<String, Object> requestMap = context.getExternalContext().getSessionMap();
+		System.out.println(requestMap);
+		pedido = requestMap.get(gestionPedido.pedido);
+	}
+	
+}

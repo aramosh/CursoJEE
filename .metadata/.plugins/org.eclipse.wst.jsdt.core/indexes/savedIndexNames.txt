@@ -1,0 +1,17 @@
+INDEX VERSION 1.4+/media/armando/6E6A2FD66A2F9A3B/JAVA/JEE/wsCursoJavaEE/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+197278413.index
+3967424458.index
+4223315641.index
+202495891.index
+2361237039.index
+3416284396.index
+790783455.index
+1178896105.index
+2608670556.index
+2093288027.index
+212860628.index
+2462804855.index
+3855375329.index
+1655963395.index
+2635983499.index
+3267535666.index

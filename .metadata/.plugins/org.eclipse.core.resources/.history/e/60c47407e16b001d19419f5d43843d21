@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Ej08_JSF">
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <property name="context-root" value="Ej08_JSF"/>
+        <property name="java-output-path" value="/Ej08_JSF/build/classes"/>
+    </wb-module>
+</project-modules>
