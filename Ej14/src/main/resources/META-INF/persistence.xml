@@ -3,7 +3,9 @@
 	<persistence-unit name="PruebaJPA" transaction-type="RESOURCE_LOCAL">
 		<!-- Aqui pondemos todas las clases que queremos que JPA vaya a leer las anotaciones
 		para poder mapearlas a la BBDD -->
-		<class>modelo.entidad.Libro</class>
+		<class>entidad.Equipo</class>
+		<class>entidad.Historial</class>
+		<class>entidad.Jugador</class>
 		<properties>
 			<!-- Tenemos una seríe de parametros minimos que decirle a JPA para que se pueda
 			contectar a la BBDD -->
@@ -19,7 +21,7 @@
 			<property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>
 						 
 			<!-- Mostrar trazas de sql y establecer dialecto con hibernate -->
-			<property name = "hibernate.show_sql" value = "false" />
+			<property name = "hibernate.show_sql" value = "true" />
 			<property name = "hibernate.dialect" value = "org.hibernate.dialect.MySQL8Dialect" />
 		</properties>
 	</persistence-unit>
