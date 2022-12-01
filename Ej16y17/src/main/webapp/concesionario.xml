@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<concesionario>
+	<coche xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ConcesionarioSchema.xsd">
+	  <marca>Ford Mondeo</marca>
+	  <tipo>Turismo</tipo>
+	  <matricula>GKG5500</matricula>
+	  <color>Verde</color>
+	  <motor>
+	    <cv>115</cv>
+	    <tipoMotor>Gasolina</tipoMotor>
+	    <consume>50.5</consume>
+	  </motor>
+	  <ruedas>
+	    <DD>
+	      <pulgadas>30.5</pulgadas>
+	      <marca>Pirelli</marca>
+	    </DD>
+	    <DI>
+	    	<pulgadas>30.5</pulgadas>
+	    	<marca>Pirelli</marca>
+	    </DI>
+	    <TD>
+	    	<pulgadas>35.0</pulgadas>
+	    	<marca>Firestone</marca>
+	    </TD>
+	    <TI>
+	    	<pulgadas>35.0</pulgadas>
+	    	<marca>Firestone</marca>
+	    </TI>
+	  </ruedas>
+	  <precio>12500.50</precio>
+	</coche>
+	<coche xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ConcesionarioSchema.xsd">
+	  <marca>Opel Corsa</marca>
+	  <tipo>Turismo</tipo>
+	  <matricula>RPG6533</matricula>
+	  <color>Marrón</color>
+	  <motor>
+	    <cv>120</cv>
+	    <tipoMotor>Diesel</tipoMotor>
+	    <consume>45.0</consume>
+	  </motor>
+	  <ruedas>
+	    <DD>
+	      <pulgadas>30.5</pulgadas>
+	      <marca>Pirelli</marca>
+	    </DD>
+	    <DI>
+	    	<pulgadas>30.5</pulgadas>
+	    	<marca>Pirelli</marca>
+	    </DI>
+	    <TD>
+	    	<pulgadas>35.0</pulgadas>
+	    	<marca>Firestone</marca>
+	    </TD>
+	    <TI>
+	    	<pulgadas>35.0</pulgadas>
+	    	<marca>Firestone</marca>
+	    </TI>
+	  </ruedas>
+	  <precio>16500.50</precio>
+	</coche>
+</concesionario>

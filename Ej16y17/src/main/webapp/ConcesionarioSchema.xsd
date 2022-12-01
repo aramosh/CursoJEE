@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema">
+	<element name="coche">
+		<complexType>
+			<all>
+				<element name="marca" type="string" />
+				<element name="tipo" type="string" />
+				<element name="matricula" type="string" />
+				<element name="color" type="string" />
+				<element name="motor">
+					<complexType>
+						<sequence>
+							<element name="cv" type="integer" />
+							<element name="tipoMotor" type="string" />
+							<element name="consume" type="double" />
+						</sequence>
+					</complexType>
+				</element>
+				<element name="ruedas">
+					<complexType>
+						<sequence>
+							<element name="DD">
+								<complexType>
+									<sequence>
+										<element name="pulgadas" type="double" />
+										<element name="marca" type="string" />
+									</sequence>
+								</complexType>
+							</element>
+							<element name="DI">
+								<complexType>
+									<sequence>
+										<element name="pulgadas" type="double" />
+										<element name="marca" type="string" />
+									</sequence>
+								</complexType>
+							</element>
+							<element name="TD">
+								<complexType>
+									<sequence>
+										<element name="pulgadas" type="double" />
+										<element name="marca" type="string" />
+									</sequence>
+								</complexType>
+							</element>
+							<element name="TI">
+								<complexType>
+									<sequence>
+										<element name="pulgadas" type="double" />
+										<element name="marca" type="string" />
+									</sequence>
+								</complexType>
+							</element>
+						</sequence>
+					</complexType>
+				</element>
+				<element name="precio" type="double"/>
+			</all>
+		</complexType>
+	</element>
+</schema>
