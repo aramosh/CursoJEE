@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora JS</title>
+    <style>
+
+        table, td, tr{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+    <script src="main.js"></script>
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="3"><input type="number" id="n1"></td>
+            <td colspan="3"><input type="number" id="n2"></td>
+        </tr>
+        <tr>
+            <td colspan="6" id="resultado"></td>
+        </tr>
+        <tr>
+            <td><button onclick="suma()">suma</button></td>
+            <td><button onclick="resta()">resta</button></td>
+            <td><button onclick="multiplica()">multiplica</button></td>
+            <td><button onclick="divide()">divide</button></td>
+            <td><button onclick="potencia()">pow</button></td>
+            <td><button onclick="longitud()">Diametro</button></td>
+        </tr>
+    </table>
+</body>
+</html>
