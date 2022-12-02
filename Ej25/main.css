@@ -1,0 +1,8 @@
+#botones{
+    display: flex;
+    flex-flow: row wrap;
+}
+#botones button{
+    width: 30%;
+    flex-grow: 1;
+}
